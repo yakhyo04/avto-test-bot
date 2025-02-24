@@ -5,8 +5,8 @@ const sqlite3 = require('sqlite3').verbose();
 const fs = require('fs');
 const path = require('path');
 
-const TOKEN = process.env.BOT_TOKEN;
-const adminId = process.env.ADMIN_ID;
+const TOKEN = '7988025268:AAFYj3moTO6u1PQUlI1tYExI7zGZr68v9Sw';
+const adminId = '1394184196';
 const bot = new TelegramBot(TOKEN, { polling: true });
 
 bot.setMyCommands([
